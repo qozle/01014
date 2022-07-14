@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Storm - Full screen background template</title>
+<title>01014 | What is this?</title>
 
 <!--  BOOTSTRAP ICONS  -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
@@ -31,7 +31,7 @@
     <div id="header-inner">
 
       <!--Logo-->
-      <div class="logo"><a href="./"><img src="images/logo.png" title="" alt="Logo" /></a></div>
+      <div class="logo"><a href="./"><span class="logo-txt">01014</span></a></div>
       <!--End Logo-->
 
       <!-- Nav -->
@@ -63,136 +63,47 @@
     <div class="content-inner">
       <!--About us content-->
       <div class="full-width-transparent clearfix">
-        <h1>About this template</h1>
-        <h2>Here are some layout options you might like to use</h2>
-        <h3>3 column layout</h3>
+        <h1 style="text-align: center;">What is 01014?</h1>
+        <h2 style="text-align: center;">Not quite binary...</h2>
 
-        <!--3 columns-->
-        <div class="clearfix bottom-breaker">
-            <div class="one-of-three">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-            <div class="two-of-three">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-            <div class="three-of-three">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-        </div>
-        <!--End 3 columns-->
+		<div class="clearfix bottom-breaker">
+			<p>
+				The short answer- this website is a work in progress of my coding and generative art projects.  It needs a lot of work!  Currently I'm focused on just getting my projects neatened-up and online.  My current projects are:
+			</p>
+			<ul>
+				<li>
+					<p><b><a href="../wall-of-cats.php" target="_blank">Wall of Cats</a></b>:  I originally made this project in 2020.  I was messing around with the Twitter API for another project (a rube goldberg machine that would trigger on certain twitter reactions to tweets- long story!) when I decided to make this project.  The goal was to create something using the Twitter API, for practice.  I created it for practice, but then ended up adding it to my projects portfolio.</p>
 
-        <h3>2 even column layout</h3>
-        <!--2 columns even-->
-        <div class="clearfix bottom-breaker">
-            <div class="one-of-two">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-            <div class="two-of-two">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-        </div>
-        <!--End 2 columns even-->
+					<p>It was originally much more complicated than it is now, but I decided to remake it and clean it up.  It connects to a filtered stream of live tweets from Twitter, processes the tweets (uses two Tensorflow models to determine if the image is safe for work, and if it contains cats), and then sends them off to the client via WSS.  Eventually, I would like to add in a style-transfer model behind the scenes in the image processing, but that's for future me ;)</p>
+				</li>
 
-        <h3>2 uneven column layout</h3>
-        <!--2 columns uneven-->
-        <div class="clearfix bottom-breaker">
-            <div class="one-small-of-two">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non.
-            </div>
-            <div class="one-large-of-two">
-            Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-        </div>
-        <!--End 2 columns uneven-->
+				<li>
+					<p><b><a href="https://twitter.com/n3tdr34m3r">Dream Tweeter</a></b>:  This is another project that uses the Twitter API.  This project is overly-complicated and is up next on my list of projects to reformat.  It generates some random text (around a topic- there is a library of words that are used that can be easily configured), and does a Google search of the text generated.  It then picks a random result from the top 10 results.  After that, the script will crawl the website to get all the webpages.  It then picks a random page, and scrapes all the text on the page.  From that text, it randomly selects as many sentences as it can fit in a tweet, combines them, and then finally tweets the resulting text.</p>
 
-        <!--Heading tag examples-->
-        <div class="clearfix bottom-breaker">
-            <h1>This is an example of an H1 tag</h1>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <h2>This is an example of an H2 tag</h2>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <h3>This is an example of an H3 tag</h3>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <h4>This is an example of an H4 tag</h4>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <h5>This is an example of an H5 tag</h5>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <!--End Heading tag examples-->
+					<p>What makes this so complicated (aside from my sloppy code!) is that there are many points-of-failure, and I added in a lot of redundancy so that it if it doesn't work the first time, it will either try and restart at a given point of the process, or just restart the whole process.</p>
 
-        <!--Block quote example-->
-        <div class="clearfix bottom-breaker">
-            <h3>Block quote</h3>
-            <blockquote><p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></blockquote>
-        </div>
-        <!--End Block quote example-->
+				</li>
 
-        <!--Lists example-->
-        <div class="clearfix bottom-breaker">
-            <h3>Types of lists</h3>
-            <div class="one-of-three">
-                <ul>
-                    <li>Listed item in here</li>
-                    <li>Listed item in here</li>
-                </ul>
-            </div>
-            <div class="two-of-three">
-                <ul class="tick">
-                    <li>Listed item in here</li>
-                    <li>Listed item in here</li>
-                </ul>
-            </div>
-            <div class="three-of-three">
-                <ul class="arrow">
-                    <li>Listed item in here</li>
-                    <li>Listed item in here</li>
-                </ul>
-            </div>
-        </div>
-        <!--End Lists example-->
+				<li>
+					<p><b><a href="/Deity-Clan-Website/" target="_blank">Gamer Clan Website</a></b>:  This is a website that I built for a paying client around 2018.  It took me a long time (months), and was a big project for me to cut my teeth on.  I had built basic websites before but this was on a new scale for me.  It's not a template!  I built the whole thing from scratch.</p> 
 
-         <!--Images in content example-->
-        <div class="clearfix bottom-breaker">
+					<p>While it's certainly flawed (and a bit outdated), I'm proud of it.  I started a project, I finished it and got paid, and I learned a lot along the way.  At the time, it was a huge accomplishment and is a display of my early web development skills.</p>
+				</li>
 
-           <div class="one-of-two">
-           <h3>Image left</h3>
-           <img class="img-left" src="images/placeholder-blog-sml.png" width="200" height="132" alt="eg" />
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non.</p>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            </div>
-            <div class="two-of-two">
-            <h3>Image right</h3>
-            <img class="img-right" src="images/placeholder-blog-sml.png" width="200" height="132" alt="eg" />
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non.</p>
-            <p>Sed interdum eros eget enim fringilla non dapibus ipsum suscipit. Maecenas congue ornare tellus, ut dapibus elit lacinia non. Praesent quis nunc ac velit pharetra pharetra in et lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
-            </div>
+				<li> 
+					<p><b><a href="https://github.com/qozle/text-gen" target="_blank">Text Generator</a></b>:  This project is one of my latest.  In the past few months, I've been taking a serious dive into machine learning.  I've experimented mostly with time-series prediction, some image processing, and text generation.  Soon, I would like to have a demo version of this, but currently there is no demo, only the raw code that you can find on github.</p>
 
-        </div>
-        <!--End Images in content example-->
+					<p>This code uses years worth of my personal journals as training material, and ultimately created a model that would write like I do.  That's partially why I don't have a demo- the resulting text that the generator makes sometimes reveals aspects of my personal life that I would like to keep private.  In the future, I am planning on changing this so that it combines the writing styles of some of my favorite authors (Arthur C. Clarke, Ken Wilber, Terry Goodkind, and others) and generates text off of that.</p>
+				</li>
 
-        <!--Tables example-->
-        <h3>Table</h3>
-            <table class="storm-table">
-            <tr>
-                <th>Header 1</th><th>Header 2</th><th>Header 3</th>
-            </tr>
-            <tr>
-                <td>Add info here</td><td>Add info here</td><td>Add info here</td>
-            </tr>
-            <tr>
-                <td>Add info here</td><td>Add info here</td><td>Add info here</td>
-            </tr>
-            <tr>
-                <td>Add info here</td><td>Add info here</td><td>Add info here</td>
-            </tr>
-            <tr>
-                <td>Add info here</td><td>Add info here</td><td>Add info here</td>
-            </tr>
-            <tr>
-                <td>Add info here</td><td>Add info here</td><td>Add info here</td>
-            </tr>
-            </table>
-        <!--End Tables example-->
+
+			</ul>	
+
+
+		</div>
+
+
+        
 
       </div>
       <!--End About us content-->
