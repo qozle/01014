@@ -29,12 +29,12 @@
 /*
  * Step 1 - Enter the recipient email address
  */
-$to = 'me@example.com';
+$to = 'mf.qozle@gmail.com';
 
 /*
  * Step 2 - Enter a "From" email address
  */
-$from = 'from@example.com';
+$from = 'mf.qozle@gmail.com';
 
 if (!empty($to) && $to != 'me@example.com') {
     // Turn on all error reporting

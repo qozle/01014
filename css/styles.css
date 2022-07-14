@@ -162,6 +162,20 @@ textarea {
 	position: absolute;
 }
 
+/*  lathe  */
+@font-face {
+	font-family: lathefont;
+	/* src: url('../fonts/alpha-echo/alpha_echo.ttf'); */
+	/* src: url('../fonts/armalite-rifle/armalite_rifle.ttf'); */
+	src: url('../fonts/data-unifon.ttf');
+}
+
+.logo-txt {
+	font-family: lathefont;
+	font-size: 3rem !important;
+	vertical-align: middle;
+}
+
 /*****************************************************
 3.  VERTICAL NAVIGATION (USED IN BLOG)
 ******************************************************/
@@ -1900,7 +1914,9 @@ a.white-link:hover {
 
 .contact-left-col {
 	float: left;
-	width: 462px;
+	/*  lathe  */
+	width: 100%;
+	/* width: 462px; */
 	height: 400px;
 	height: auto;
 	min-height: 400px;
@@ -2403,9 +2419,9 @@ body.ajax .content-inner {
 /*****************************************************
 20. CHANGE THE FONT COLOUR SCHEME (DEFAULT IS ORANGE)
 ******************************************************/
-a:link, a:visited {color: #ffa200;}/*ADD YOUR NEW COLOUR HERE*/
+a:link, a:visited {color: #5f5eb9;}/*ADD YOUR NEW COLOUR HERE*/
 
-.email a {border-bottom-color: #ffa200;}/*ADD YOUR NEW COLOUR HERE*/
+.email a {border-bottom-color: #5f5eb9;}/*ADD YOUR NEW COLOUR HERE*/
 
 .search-button-wrap input,a.more-link, .search-button-wrap input, .pagination-wrapper ul li a, .pagination-wrapper ul li.on span, .comment-reply .submit-button-input-wrapper input, ul.footer-menu li a, a.button-press, .email a, ul#horz-nav-ul li a, #horz-nav-ul ul li a, #horz-nav-ul ul li a ul a, #horz-nav-ul ul li span, #horz-nav-ul ul li a ul span, ul.vert-nav-ul li a, .comment-meta a,
 a.white-link {color:#f7f7f7;}/*RESETS THE LINK/BUTTON COLOURS (NO NEED TO CHANGE)*/
@@ -2413,7 +2429,7 @@ a.white-link {color:#f7f7f7;}/*RESETS THE LINK/BUTTON COLOURS (NO NEED TO CHANGE
 h2, h5, a.button-link:hover, a.more-link:hover, .search-button-wrap input:hover, h2.entry-title a, .pagination-wrapper ul li a:hover, .fullscreen-caption h1, .serene-caption h1,
 .pagination-wrapper ul li.on span:hover, .comment-reply .submit-button-input-wrapper input:hover, ul.footer-menu li a:hover,
 a.button-press:hover, .email a:hover, ul#horz-nav-ul li a:hover, #horz-nav-ul ul li a:hover, #horz-nav-ul ul li a ul a:hover, #horz-nav-ul ul li span:hover, #horz-nav-ul ul li a ul span:hover, ul.vert-nav-ul li a:hover,.iphorm-inner .submit-button-input-wrapper input:hover
-{color: #ffa200;}/*ADD YOUR NEW COLOUR HERE*/
+{color: #5f5eb9;}/*ADD YOUR NEW COLOUR HERE*/
 
 /*****************************************************
 21.  ADD YOUR STYLES BELOW (IF YOU WANT TO)
