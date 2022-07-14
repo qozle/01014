@@ -1,5 +1,5 @@
 // const ws = new WebSocket("ws://10.6.150.160:1337");
-const ws = new WebSocket("ws://192.168.3.202:1337");
+const ws = new WebSocket("wss://01014.org:1337");
 
 ws.addEventListener("open", () => {
 	console.log("We are connected");
