@@ -3,7 +3,9 @@
 
 	// List of background images to use, the default image will be the first one in the list
 	var backgrounds = [
-	    'images/backgrounds/placeholder.jpg'
+		'images/backgrounds/transparent/plain-dark-10.png',
+		'images/backgrounds/transparent/plain-dark-20.png',
+		'images/backgrounds/transparent/plain-dark-30.png',
 	],
 
 	// Background options - see documentation
@@ -12,7 +14,7 @@
 	},
 
 	// Twitter username
-	twitterUsername = 'ThemeCatcher',
+	twitterUsername = 'n3tdr34m3r',
 
 	// Number tweets to show, set to 0 to disable
 	tweetCount = 2,
