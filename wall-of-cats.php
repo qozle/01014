@@ -69,8 +69,8 @@
 
 			<!--Transparent Header-->
 			<div class="transparent-header">
-				<h1 style="text-align: center;">01014</h1>
-				<h2 style="text-align: center;">Wall of Cats</h2>
+				<h1 style="text-align: center;">Wall of Cats</h1>
+				<h2 style="text-align: center;">Images taken from real-time tweets about cats</h2>
 			</div>
 			<!--End Transparent Header-->
 
@@ -80,56 +80,56 @@
 					<ul>
 
 						<li class="one-portfolio-item" id="col_1">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat1.jpg" rel="portfolio">
+								<img src="images/cats/cat1.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_2">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat2.jpg" rel="portfolio">
+								<img src="images/cats/cat2.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_3">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat3.jpg" rel="portfolio">
+								<img src="images/cats/cat3.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_4">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat4.jpg" rel="portfolio">
+								<img src="images/cats/cat4.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_5">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat5.jpg" rel="portfolio">
+								<img src="images/cats/cat5.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_6">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat6.jpg" rel="portfolio">
+								<img src="images/cats/cat6.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_7">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat7.jpg" rel="portfolio">
+								<img src="images/cats/cat7.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_8">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat8.jpg" rel="portfolio">
+								<img src="images/cats/cat8.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 
 						<li class="one-portfolio-item" id="col_9">
-							<a class="portfolio-thumb-link" href="images/portfolio/popup/placeholder.png" rel="portfolio">
-								<img src="images/portfolio/3column/placeholder.png" alt="" />
+							<a class="portfolio-thumb-link" href="images/cats/cat9.jpg" rel="portfolio">
+								<img src="images/cats/cat9.jpg" class="cat_pic" alt="" />
 							</a>
 						</li>
 

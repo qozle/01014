@@ -23,9 +23,11 @@ ws.addEventListener("message", function (event) {
 		boxes.push(rdm_box);
 
 		//  replace current image in box with new image
-		$(`#col_${rdm_box}`).empty();
-		$(`#col_${rdm_box}`).append(
-			`<a class="cat_a portfolio-thumb-link" rel="portfolio" target="_blank" href="${img}"><img class="cat_pic" src="${img}"></a>`
-		);
+		// $(`#col_${rdm_box}`).empty();
+		$(`#col_${rdm_box} a`).prop('href', `${img}`);
+		$(`#col_${rdm_box} a img`).prop('src', `${img}`);
+		// $(`#col_${rdm_box}`).append(
+		// 	`<a class="cat_a portfolio-thumb-link" rel="portfolio" href="${img}"><img class="cat_pic" src="${img}"></a>`
+		// );
 	});
 });
